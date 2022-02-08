@@ -13,27 +13,42 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\Modules">
+    <Filter Include="Source Files\Lib">
       <UniqueIdentifier>{e8b3af6b-4518-45b0-bd54-cf014f39129b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Modules\IsElevated">
+    <Filter Include="Source Files\Lib\IsElevated">
       <UniqueIdentifier>{60d7198a-8f11-46be-b34a-fc85f51b1587}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lib\Vector">
+      <UniqueIdentifier>{6da04dde-3176-4d16-9e16-0549e6a686b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lib\TerminalStyle">
+      <UniqueIdentifier>{d3d16ed9-6ef3-4e57-8ae8-abd735cc0ac8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="isElevated.cpp">
-      <Filter>Source Files\Modules\IsElevated</Filter>
+    <ClCompile Include="iselevated.cpp">
+      <Filter>Source Files\Lib\IsElevated</Filter>
+    </ClCompile>
+    <ClCompile Include="vector.cpp">
+      <Filter>Source Files\Lib\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="terminalutils.cpp">
+      <Filter>Source Files\Lib\TerminalStyle</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="terminalstyle.hpp">
-      <Filter>Source Files\Modules</Filter>
+    <ClInclude Include="iselevated.h">
+      <Filter>Source Files\Lib\IsElevated</Filter>
     </ClInclude>
-    <ClInclude Include="isElevated.hpp">
-      <Filter>Source Files\Modules\IsElevated</Filter>
+    <ClInclude Include="vector.hpp">
+      <Filter>Source Files\Lib\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="terminalutils.hpp">
+      <Filter>Source Files\Lib\TerminalStyle</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
